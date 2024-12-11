@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Trans } from '@lingui/react/macro';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Trans>Learn React</Trans>
         </a>
       </header>
     </div>
